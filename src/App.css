@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #3e3f41;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+}
+
+.container{
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 500px;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  
+
+}
+
+.innerbox{
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+input{
+  
+  height: 30px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  &:hover{
+    background-color: #58595a;
+  }
+
+  &:focus{
+    background-color: rgb(247, 247, 199);
+  }
+}
